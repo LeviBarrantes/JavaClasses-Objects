@@ -61,16 +61,16 @@ public class VetOffice {
         return "Pet need medication";
     }
 
-    public String provideMedication(String list) {
+    public String provideMedication(String medicationType) {
 
-        return list;
+        return medicationType;
 
     }
 
 
     public static void main(String[] args) {
         VetOffice vetOffice = new VetOffice("Kaha", "Japanese Akita ", 7,"Levi");
-        System.out.println(vetOffice.provideMedication("Dogs needs antibiotics"));
+        System.out.println(vetOffice.provideMedication("Dog needs antibiotics"));
         String aDog = "Dog";
     }
 }
